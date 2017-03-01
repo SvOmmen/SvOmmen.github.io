@@ -345,7 +345,7 @@ Modules - reusable parts of our design
 	background-size:cover;
 }
 #Pictures:hover{
-    background:url("../images/selfportrait.JPG")  no-repeat center center;
+    background:url("../images/selfportrait.jpg")  no-repeat center center;
     background-size:100%;
 	}
 #Animations:hover{
