@@ -35,7 +35,7 @@ html * {
 }
 
 html.index{
-	background:url(../images/bg.jpg) no-repeat center center fixed;
+	background:url(../images/bg.JPG) no-repeat center center fixed;
 	background-size: cover;
 }
 
@@ -345,7 +345,7 @@ Modules - reusable parts of our design
 	background-size:cover;
 }
 #Pictures:hover{
-    background:url("../images/selfportrait.jpg")  no-repeat center center;
+    background:url("../images/selfportrait.JPG")  no-repeat center center;
     background-size:100%;
 	}
 #Animations:hover{
@@ -353,7 +353,7 @@ Modules - reusable parts of our design
     background-size:100%;
 	}
 #Links:hover{
-    background:url("../images/vuitton2.jpg")  no-repeat center center;
+    background:url("../images/vuitton2.JPG")  no-repeat center center;
     background-size:100%;
 	}
 #Websites:hover{
@@ -377,28 +377,25 @@ Main components
 }
 .cd-section:nth-of-type(1) {
 	background-color: #3e3947;
-	background:url(../images/bg.jpg) no-repeat center center fixed;
+	background:url(../images/bg.JPG) no-repeat center center fixed;
 	background-size: cover;
 }
 .cd-section:nth-of-type(2) {
-	background:url(../images/bg.jpg) no-repeat left top fixed;
+	background:url(../images/bg.JPG) no-repeat left top fixed;
 	}
 .cd-section:nth-of-type(3) {
-	background:url(../images/bg.jpg) no-repeat left center fixed;
+	background:url(../images/bg.JPG) no-repeat left center fixed;
 	}
 .cd-section:nth-of-type(4) {
-	background:url(../images/bg.jpg) no-repeat right center fixed;
+	background:url(../images/bg.JPG) no-repeat right center fixed;
 	}
 .cd-section:nth-of-type(5) {
-	background:url(../images/bg.jpg) no-repeat center top fixed;
+	background:url(../images/bg.JPG) no-repeat center top fixed;
 	}
 .cd-section:nth-of-type(6) {
-	background:url(../images/bg.jpg) no-repeat center center fixed;
+	background:url(../images/bg.JPG) no-repeat center center fixed;
 	}
 
-.cd-section:nth-of-type(even) p {
-  color: #bda3ad;
-}
 .cd-section a{
 	font-weight: bold;
 	color:inherit;
@@ -446,7 +443,6 @@ Main components
   bottom: 20px;
   width: 38px;
   height: 44px;
-  background: url("../img/cd-arrow-bottom.svg") no-repeat center center;
 }
 
 /* No Touch devices */
