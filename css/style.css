@@ -1,0 +1,668 @@
+/* -------------------------------- 
+
+Primary style
+
+Based on a template by codyhouse.co
+Edited and extended by Sandrien van Ommen
+
+-------------------------------- */
+html * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'allover'; /*a name to be used later*/
+    src: url("../fonts/AllOverAgain.ttf"); /*URL to font*/
+}
+@font-face {
+    font-family: 'alloverc'; /*a name to be used later*/
+    src: url("../fonts/AllOverAgainAllCaps.ttf"); /*URL to font*/
+}
+@font-face {
+    font-family: 'titillium'; /*a name to be used later*/
+    src: url("../fonts/TitilliumWeb-Regular.ttf"); /*URL to font*/
+}
+@font-face {
+    font-family: 'titilliuml'; /*a name to be used later*/
+    src: url("../fonts/TitilliumWeb-Light.ttf"); /*URL to font*/
+}
+
+html.index{
+	background:url(../images/bg.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+body {
+  font-size: 100%;
+  font-family: "titillium";
+/*  color: #3e3947;*/
+  background-color: white;
+}
+
+body, html {
+  height: 100%;
+}
+
+p{
+	font-family: 'titillium';
+	text-align:center;
+	position:relative;
+	float:none;	
+}
+a{
+	font-family: 'titilliuml';
+	font-size: 20px;
+	color: #3e3947;
+  	text-decoration: none;
+}
+b{
+	font-weight: bold;
+}
+h1{
+	font-family: 'alloverc';
+	font-size: 11px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  width: 90%;
+  max-width: 1536px;
+  text-align: center;
+  float:none;
+}
+h2{	
+	font-family: 'titilliuml';  
+	color:white;
+}
+img {
+  max-width: 100%;
+}
+
+table{
+	position:relative;
+	top:0%;
+	left:0%;
+	width:100%;
+}
+table a{
+	font-weight: bold;
+	}
+table a:hover{
+	color:gray;
+	}
+td {
+    padding: 10px;
+    text-align: center;
+}
+td.year{
+	color:white;
+	}
+tr:hover {
+	background-color: #f5f5f5
+	}
+.alpha60{
+    /* Fallback for web browsers that don't support RGBa */
+    background-color: rgb(0, 0, 0);
+    /* RGBa with 0.6 opacity */
+    background-color: rgba(0, 0, 0, 0.6);
+    /* For IE 5.5 - 7*/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+.pub{
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+}
+.gif{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline: none;
+    display: inline-block;
+    height:180px;
+    width:20%;
+    font-size: 30px;  
+/*    font-family:'allover';*/
+    color: white;
+    -webkit-text-stroke: 1px black;
+    margin: 15px;
+    border-radius: 0.25em;
+}
+#gibbon{
+    background:url("../gifs/gibbon.jpg")  no-repeat center center;
+	background-size:100%;
+}
+#gibbon:hover{
+    background:url("../gifs/gibbon.gif")  no-repeat center center;
+	background-size:100%;
+}
+#pirouette{
+    background:url("../gifs/pirouette.jpg")  no-repeat center center;
+	background-size:100%;
+}
+#pirouette:hover{
+    background:url("../gifs/pirouette.gif")  no-repeat center center;
+	background-size:100%;
+}
+#slakje{
+    background:url("../gifs/slakje.jpg")  no-repeat center center;
+	background-size:100%;
+}
+#slakje:hover{
+    background:url("../gifs/slakje.gif")  no-repeat center center;
+	background-size:100%;
+}
+#portrait{
+  position: relative;
+  bottom: auto;
+  right: auto;
+  width: 100%;
+  height: auto;
+  margin:20px;
+}
+#404{
+  position: absolute;
+  bottom: 20%;
+  top:20%;
+  right: auto;
+  width: auto%;
+  height: auto;
+  margin:20px;
+
+}
+/* -------------------------------- 
+
+Modules - reusable parts of our design
+
+-------------------------------- */
+.cd-img-replace {
+  /* replace text with a background-image */
+  display: inline-block;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+}
+.dimmed {
+  position: relative;
+}
+.footer{
+  position: absolute;
+  display: block;
+  height: 30%;
+  top: 70%;
+  left: 50%;
+  right: 50%;
+  -webkit-transform: translateX(-50%) translateY(0%);
+  -moz-transform: translateX(-50%) translateY(0%);
+  -ms-transform: translateX(-50%) translateY(0%);
+  -o-transform: translateX(-50%) translateY(0%);
+  transform: translateX(-50%) translateY(0%);
+  width: 90%;
+  max-width: 1536px;
+  text-align: center;
+  background: rgba(249, 249, 249, 0.5);
+  border-radius: 0.25em;
+}
+.footer h2{
+  position: relative;
+  top:5%;
+}
+.footer p{
+  position: relative;
+  top:15%;
+}
+.portrait{
+	position: relative;
+/*	float:bottom;
+*/	width:20%;
+	height:auto;
+	top: auto;
+	left: 50%;
+  -webkit-transform: translateX(-50%) translateY(0%);
+  -moz-transform: translateX(-50%) translateY(0%);
+  -ms-transform: translateX(-50%) translateY(0%);
+  -o-transform: translateX(-50%) translateY(0%);
+  transform: translateX(-50%) translateY(0%);
+}
+.overlay {
+  content: " ";
+  pointer-events: none
+  z-index: 10;
+  display: inline-block;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(249, 249, 249, 0.5);
+  float:none;
+}
+.content{
+	position: absolute;
+  left: 50%;
+  top: 50%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  width: 90%;
+  max-width: 1536px;
+  text-align: center;
+  float:none;
+  max-height: 90%;
+}
+.content p{
+	text-align:center;
+	position:relative;
+	float:none;	
+}
+.button{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline: none;
+    display: inline-block;
+    height:150px;
+    width:20%;
+    font-size: 1.3em;  
+/*    font-family:'allover';*/
+    color: white;
+    -webkit-text-stroke: 1px black;
+    margin: 15px;
+    border-radius: 0.25em;
+}
+.button:hover{
+	box-shadow:0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);	
+}
+.smallbutton{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline: none;
+    display: inline-block;
+    height:50px;
+    width:5%;
+/*    font-family:'allover';*/
+    color: white;
+    -webkit-text-stroke: 1px black;
+    margin: 15px;
+    border-radius: 0.25em;
+}
+.smallbutton:hover{
+	box-shadow:0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);	
+}
+#back{
+	float:bottom;
+	top:90%;
+	position:absolute;	
+}
+#linkedin{
+    background:url("../images/linkedin.png")  no-repeat center center;
+	background-size:cover;
+}
+#osf{
+    background:url("../images/osf.png")  no-repeat center center;
+	background-size:cover;
+}
+#researchgate{
+    background:url("../images/researchgate.png")  no-repeat center center;
+	background-size:cover;
+}
+#googlecit{
+    background:url("../images/gscholar.png")  no-repeat center center;
+	background-size:cover;
+}
+#github{
+    background:url("../images/github.png")  no-repeat center center;
+	background-size:cover;
+}
+#Pictures:hover{
+    background:url("../images/selfportrait.jpg")  no-repeat center center;
+    background-size:100%;
+	}
+#Animations:hover{
+    background:url("../images/gibbon.gif")  no-repeat center center;
+    background-size:100%;
+	}
+#Links:hover{
+    background:url("../images/vuitton2.jpg")  no-repeat center center;
+    background-size:100%;
+	}
+#Websites:hover{
+    background:url("../images/painting.jpg")  no-repeat center center;
+    background-size:100%;
+	}
+#Back:hover{
+    background:url("../gifs/pirouette.gif")  no-repeat center center;
+    background-size:100%;
+}
+
+/* -------------------------------- 
+
+Main components 
+
+-------------------------------- */
+.cd-section {
+  min-height: 100%;
+  position: relative;
+  padding: 2em 0;
+}
+.cd-section:nth-of-type(1) {
+	background-color: #3e3947;
+	background:url(../images/bg.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+.cd-section:nth-of-type(2) {
+	background:url(../images/bg.jpg) no-repeat left top fixed;
+	}
+.cd-section:nth-of-type(3) {
+	background:url(../images/bg.jpg) no-repeat left center fixed;
+	}
+.cd-section:nth-of-type(4) {
+	background:url(../images/bg.jpg) no-repeat right center fixed;
+	}
+.cd-section:nth-of-type(5) {
+	background:url(../images/bg.jpg) no-repeat center top fixed;
+	}
+.cd-section:nth-of-type(6) {
+	background:url(../images/bg.jpg) no-repeat center center fixed;
+	}
+
+.cd-section:nth-of-type(even) p {
+  color: #bda3ad;
+}
+.cd-section a{
+	font-weight: bold;
+	color:inherit;
+	font-size:inherit;
+	}
+.cd-section a:hover{
+	color:gray;
+	}
+.cd-section h1 {
+  color: white;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-size: 1.25rem;
+}
+.cd-section h2 {
+/*  color: white;
+*/  font-weight: 300;
+  font-size: 20px;
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .cd-section h1 {
+    font-size: 30px;
+    font-size: 1.875rem;
+  }
+  .cd-section p {
+    font-size: 20px;
+    font-size: 1.25rem;
+    line-height: 2;
+  }
+}
+
+.cd-scroll-down {
+  position: absolute;
+  left: 50%;
+  right: auto;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  bottom: 20px;
+  width: 38px;
+  height: 44px;
+  background: url("../img/cd-arrow-bottom.svg") no-repeat center center;
+}
+
+/* No Touch devices */
+.cd-nav-trigger {
+  display: none;
+}
+
+.no-touch #cd-vertical-nav {
+  position: fixed;
+  right: 40px;
+  top: 50%;
+  bottom: auto;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 1;
+}
+.no-touch #cd-vertical-nav li {
+  text-align: right;
+}
+.no-touch #cd-vertical-nav a {
+  display: inline-block;
+  /* prevent weird movements on hover when you use a CSS3 transformation - webkit browsers */
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.no-touch #cd-vertical-nav a:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.no-touch #cd-vertical-nav a span {
+  float: right;
+  display: inline-block;
+  -webkit-transform: scale(0.6);
+  -moz-transform: scale(0.6);
+  -ms-transform: scale(0.6);
+  -o-transform: scale(0.6);
+  transform: scale(0.6);
+}
+.no-touch #cd-vertical-nav a:hover span {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+}
+.no-touch #cd-vertical-nav a:hover .cd-label {
+  opacity: 1;
+}
+.no-touch #cd-vertical-nav a.is-selected .cd-dot {
+  background-color: white;
+}
+.no-touch #cd-vertical-nav .cd-dot {
+  position: relative;
+  /* we set a top value in order to align the dot with the label. If you change label's font, you may need to change this top value*/
+  top: 8px;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background-color: #d88683;
+  -webkit-transition: -webkit-transform 0.2s, background-color 0.5s;
+  -moz-transition: -moz-transform 0.2s, background-color 0.5s;
+  transition: transform 0.2s, background-color 0.5s;
+  -webkit-transform-origin: 50% 50%;
+  -moz-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  -o-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+}
+.no-touch #cd-vertical-nav .cd-label {
+  position: relative;
+  margin-right: 10px;
+  padding: .4em .5em;
+  color: white;
+  font-size: 14px;
+  font-size: 0.875rem;
+  -webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
+  -moz-transition: -moz-transform 0.2s, opacity 0.2s;
+  transition: transform 0.2s, opacity 0.2s;
+  opacity: 0;
+  -webkit-transform-origin: 100% 50%;
+  -moz-transform-origin: 100% 50%;
+  -ms-transform-origin: 100% 50%;
+  -o-transform-origin: 100% 50%;
+  transform-origin: 100% 50%;
+}
+
+/* Touch devices */
+.touch .cd-nav-trigger {
+  display: block;
+  z-index: 2;
+  position: fixed;
+  bottom: 30px;
+  right: 5%;
+  height: 44px;
+  width: 44px;
+  border-radius: 0.25em;
+  background: rgba(255, 255, 255, 0.9);
+}
+.touch .cd-nav-trigger span {
+  position: absolute;
+  height: 4px;
+  width: 4px;
+  background-color: #3e3947;
+  border-radius: 50%;
+  left: 50%;
+  top: 50%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+.touch .cd-nav-trigger span::before, .touch .cd-nav-trigger span::after {
+  content: '';
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  background-color: inherit;
+  border-radius: inherit;
+}
+.touch .cd-nav-trigger span::before {
+  top: -9px;
+}
+.touch .cd-nav-trigger span::after {
+  bottom: -9px;
+}
+
+.touch #cd-vertical-nav {
+  position: fixed;
+  z-index: 1;
+  right: 5%;
+  bottom: 30px;
+  width: 90%;
+  max-width: 400px;
+  max-height: 90%;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  -webkit-transform-origin: right bottom;
+  -moz-transform-origin: right bottom;
+  -ms-transform-origin: right bottom;
+  -o-transform-origin: right bottom;
+  transform-origin: right bottom;
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: -moz-transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  border-radius: 0.25em;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.touch #cd-vertical-nav a {
+  display: block;
+  padding: 1em;
+  border-bottom: 1px solid rgba(62, 57, 71, 0.1);
+}
+.touch #cd-vertical-nav a span:first-child {
+  display: none;
+}
+.touch #cd-vertical-nav a.is-selected span:last-child {
+  color: #d88683;
+}
+.touch #cd-vertical-nav.open {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+}
+.touch #cd-vertical-nav.open + .cd-nav-trigger {
+  background-color: transparent;
+}
+.touch #cd-vertical-nav.open + .cd-nav-trigger span {
+  background-color: rgba(62, 57, 71, 0);
+}
+.touch #cd-vertical-nav.open + .cd-nav-trigger span::before, .touch #cd-vertical-nav.open + .cd-nav-trigger span::after {
+  background-color: #3e3947;
+  height: 3px;
+  width: 20px;
+  border-radius: 0;
+  left: -8px;
+}
+.touch #cd-vertical-nav.open + .cd-nav-trigger span::before {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  top: 1px;
+}
+.touch #cd-vertical-nav.open + .cd-nav-trigger span::after {
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  transform: rotate(135deg);
+  bottom: 0;
+}
+.touch #cd-vertical-nav li:last-child a {
+  border-bottom: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .touch .cd-nav-trigger, .touch #cd-vertical-nav {
+    bottom: 40px;
+  }
+}
