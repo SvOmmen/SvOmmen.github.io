@@ -190,6 +190,27 @@ tr:hover {
     background:url("../gifs/slakje.gif")  no-repeat center center;
 	background-size:100%;
 }
+#Prosaq:hover{
+    background:url("../gifs/prosaq.gif")  no-repeat center center;
+	background-size:100%;
+}
+#Rhythmproc:hover{
+    background:url("../gifs/rhythmproc.gif")  no-repeat center center;
+	background-size:100%;
+}
+#Mutualint:hover{
+    background:url("../gifs/mutualint.gif")  no-repeat center center;
+	background-size:100%;
+}
+#Emphlength:hover{
+    background:url("../gifs/emphlength.gif")  no-repeat center center;
+	background-size:100%;
+}
+#Lingdist:hover{
+    background:url("../gifs/lingdist.gif")  no-repeat center center;
+	background-size:100%;
+}
+
 #portrait{
 	max-height:80%;
 	max-width:80%;

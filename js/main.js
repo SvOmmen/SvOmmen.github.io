@@ -163,7 +163,7 @@ jQuery(document).ready(function($){
 			content =
 			'<table>'+
 			'<tr>' + '<td class="year">In preparation'+'</td>'+ 
-			'<td>Ommen, S. van, Boll-Avetisyan, N., Larraza, S., Abboub, N., Bijeljac-Babic, R., H&#246hle, B. and T. Nazzi <br> <a href="pubs/vanOmmenetal(inprep)ProsodicdevFrench.pdf" target=>Early perception of prosodic boundaries by French infants (tentative title)</a>'+'</td>'+
+			'<td>Ommen, S. van, Boll-Avetisyan, N., Larraza, S., Bijeljac-Babic, R., H&#246hle, B. and T. Nazzi <br> <a href="pubs/vanOmmenetal(inprep)ProsodicdevFrench.pdf" target=>Early perception of prosodic boundaries by French infants (tentative title)</a>'+'</td>'+
 			'</tr>' +
 			'</table>'+
 			'<p>'+
@@ -321,7 +321,7 @@ jQuery(document).ready(function($){
 			pickdiv = 'Otherpage'
 			content = 
 			'<p>'+
-			'<a href="http://www.sandrienvanommen.nl" target=>Sandrien van Ommen</a><br>'+
+			'<a href="http://svommen.github.io" target=>Sandrien van Ommen</a><br>'+
 			'<a href="http://www.gaaikeeuwema.nl" target=>Visual artist Gaaike Euwema</a><br>'+
 			'<a href="http://www.hum.uu.nl/medewerkers/s.vanommen/ELiTU.html" target=>Experimental Linguistics Talks Utrecht</a><br>'+
 			'<button type="button" class="button" id="Back">Back</button>'+
