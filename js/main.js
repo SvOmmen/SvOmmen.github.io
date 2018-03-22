@@ -76,10 +76,12 @@ jQuery(document).ready(function($){
 		content = 
 		'<p>'+
 		'<button type="button" class="button" id="Prosaq">Prosody Acquisition</button>'+
-		'<button type="button" class="button" id="Rhythmproc">Rhythmic Processing</button>'+
+		'<button type="button" class="button" id="Prosproc">Prosodic Processing</button>'+
 		'<button type="button" class="button" id="Mutualint">Mutual Intelligibility</button><br>'+
-		'<button type="button" class="button" id="Lingdist">Linguistic distance</button>'+
-		'<button type="button" class="button" id="Emphlength">Emphatic Lengthening</button>'
+		'<button type="button" class="button" id="Lingdist">Linguistic Distance</button>'+
+		'<button type="button" class="button" id="Emphlength">Emphatic Lengthening</button>'+
+		'<button type="button" class="button" id="Visworld">Visual World</button>'+
+		'<button type="button" class="button" id="Brain">Brain</button>'
 		'</p>'
 		addContent();
 		
@@ -115,9 +117,9 @@ jQuery(document).ready(function($){
 			prosaq();
 			});
 
-//Rhythmproc event
-		$('#Rhythmproc').on('click', function(){
-			rhythmproc();
+//Prosproc event
+		$('#Prosproc').on('click', function(){
+			Prosproc();
 			});
 
 //Mutualint event
@@ -133,6 +135,14 @@ jQuery(document).ready(function($){
 //emphlength event
 		$('#Emphlength').on('click', function(){
 			emphlength();
+			});
+//visworld event
+		$('#Visworld').on('click', function(){
+			visworld();
+			});
+//brain event
+		$('#Brain').on('click', function(){
+			brain();
 			});
 					
 // buttons on the 'other' page		
@@ -162,8 +172,8 @@ jQuery(document).ready(function($){
 		cleardiv();
 			content =
 			'<table>'+
-			'<tr>' + '<td class="year">In preparation'+'</td>'+ 
-			'<td>Ommen, S. van, Boll-Avetisyan, N., Larraza, S., Bijeljac-Babic, R., H&#246hle, B. and T. Nazzi <br> <a href="pubs/vanOmmenetal(inprep)ProsodicdevFrench.pdf" target=>Early perception of prosodic boundaries by French infants (tentative title)</a>'+'</td>'+
+			'<tr>' + '<td class="year">Under Review'+'</td>'+ 
+			'<td>Ommen, S. van, Boll-Avetisyan, N., Larraza, S., Bijeljac-Babic, R., H&#246hle, B. and T. Nazzi <br> <a href="pubs/vanOmmenetal(under review)ProsodicdevFrench.pdf" target=>Language-specific prosodic acquisition: a comparison of phrase boundary perception by French- and German-learning infants</a>'+'</td>'+
 			'</tr>' +
 			'</table>'+
 			'<p>'+
@@ -176,32 +186,23 @@ jQuery(document).ready(function($){
 			});
 	}		
 
-// Rhythmproc function
-	function rhythmproc(){
+// Prosproc function
+	function Prosproc(){
 		pickdiv = 'pubpage'
 		cleardiv();
 			content =
 			'<table>'+
+			'<tr>' + '<td class="year">2018'+'</td>'+ 
+			'<td>Nixon, J.S ,Boll-Avetisyan, N. Lentz, T. O., van Ommen, S. Keij, B., Çöltekin, Ç, Liu, L., & van Rij, J. <br><a href="pubs/Nixonetal(2018)Shortterm.pdf" target=>Short-term exposure enhances perception of both between- and within-category acoustic information. Proceedings of Speech Prosody 2018. In press.'+'</td>'+
+			'</tr>' +
 			'<tr>' + '<td class="year">2016'+'</td>'+ 
-			'<td>Ommen, S. van <br> <a href="pubs/vanOmmen(2016)Listentothebeat.pdf" target=>Listen to the beat: A cross-linguistic perspective on the use of stress in segmentation </a>'+'Doctoral dissertation, Utrech University. Published by LOT (Landelijke Onderzoeksschool Taalwetenschap)'+'</td>'+
+			'<td>Ommen, S. van <br> <a href="pubs/vanOmmen(2016)Listentothebeat.pdf" target=>Listen to the beat: A cross-linguistic perspective on the use of stress in segmentation </a>'+'Doctoral dissertation, Utrecht University. Published by LOT (Landelijke Onderzoeksschool Taalwetenschap)'+'</td>'+
 			'</tr>' +
 			'<tr>'+
 			'<td class="year">2012</td>'+ 
-			'<td>Ommen, S. van and R.W.J. Kager. <a href="pubs/vanOmmenKager(2012)Progressiveuseofmetricalcues.pdf" target=>Progressive Use of Metrical Cues: a Cross-linguistic Study.</a> In: Proceedings of NLPCS 2012, 9th International Workshop on Natural Language Processing and Cognitive Science, Wroclaw, Poland, p. 74-84.'+
+			'<td>Ommen, S. van and R.W.J. Kager. <br><a href="pubs/vanOmmenKager(2012)Progressiveuseofmetricalcues.pdf" target=>Progressive Use of Metrical Cues: a Cross-linguistic Study.</a> In: Proceedings of NLPCS 2012, 9th International Workshop on Natural Language Processing and Cognitive Science, Wroclaw, Poland, p. 74-84.'+
 			'</td>'+
 			'</tr>'+
-			'<tr>' + '<td class="year">In preparation'+'</td>'+ 
-			'<td>Ommen, S. van, and R.W.J. Kager <br> <a href="pubs/vanOmmenKager(inprep)metronome.pdf" target=>Metronome segmentation in a cross-linguistic perspective.</a>'+'</td>'+
-			'</tr>' +
-			'<tr>' + '<td class="year">In preparation'+'</td>'+ 
-			'<td>Ommen, S. van, Verlinde, M. and B.M. Keij <br> <a href="pubs/vanOmmenetal(inprep)metsegdev.pdf" target=>Development of metrical segmentation strategies in 6- to 14-year-old children (tentative title)</a>'+'</td>'+
-			'</tr>' +
-			'<tr>' + '<td class="year">In preparation'+'</td>'+ 
-			'<td>Ommen, S. van, and R.W.J. Kager <br> <a href="pubs/vanOmmenKager(inprep)metopt.pdf" target=>Metrical optimization in segmentation (tentative title)</a>'+'</td>'+
-			'</tr>' +
-			'<tr>' + '<td class="year">In preparation'+'</td>'+ 
-			'<td>Ommen, S. van, Avrutin S. and F. Adriaans <br> <a href="pubs/vanOmmenetal(inprep)infedge.pdf" target=>Information value of edge-aligned stress (tentative title)</a>'+'</td>'+
-			'</tr>' +
 			'</table>'+
 			'<p>'+
 			'<button type="button" class="button" id="Back">Back</button>'+
@@ -242,10 +243,10 @@ jQuery(document).ready(function($){
 			'<table>'+
 			'<tr>'+
 			'<td class="year">2013</td>'+ 
-			'<td>Nerbonne, J., S. van Ommen, C.G. Gooskens and L. Impe. <a href="pubs/Nerbonneetal(2013)AcorpusofregionalDutchspeech.pdf" target=>A corpus of regional Dutch speech.</a> In: Charlotte Gooskens and Renee van Bezooijen (eds.) Phonetics in Europe. Perception and production, Peter Lang.</td>'+
+			'<td>Nerbonne, J., S. van Ommen, C.G. Gooskens and L. Impe. <br><a href="pubs/Nerbonneetal(2013)AcorpusofregionalDutchspeech.pdf" target=>A corpus of regional Dutch speech.</a> In: Charlotte Gooskens and Renee van Bezooijen (eds.) Phonetics in Europe. Perception and production, Peter Lang.</td>'+
 			'</tr>'+
 			'<tr><td class="year">2013</td>'+ 
-			'<td>Nerbonne, J., S. van Ommen, C.G. Gooskens and M. Wieling. <a href="pubs/Nerbonneetal(2013)Measuringsociallymotivatedpronunciationdifferences.pdf" target=>Measuring socially motivated pronunciation differences</a>, in: Lars Boring and Aju Saxena (eds.) Approaches to Measuring Linguistic Differences, Mouton De Gruyter.</td>'+
+			'<td>Nerbonne, J., S. van Ommen, C.G. Gooskens and M. Wieling. <br><a href="pubs/Nerbonneetal(2013)Measuringsociallymotivatedpronunciationdifferences.pdf" target=>Measuring socially motivated pronunciation differences</a>, in: Lars Boring and Aju Saxena (eds.) Approaches to Measuring Linguistic Differences, Mouton De Gruyter.</td>'+
 			'</tr>'+
 			'</table>'+
 			'<p>'+
@@ -258,7 +259,7 @@ jQuery(document).ready(function($){
 			});
 	}
 	
-	// Prosaq function
+// Emphlength function
 	function emphlength(){
 		pickdiv = 'pubpage'
 		cleardiv();
@@ -266,7 +267,7 @@ jQuery(document).ready(function($){
 			'<table>'+
 			'<tr>'+
 			'<td class="year">2007</td>' +
-			'<td>Ommen, S. van, J. Hoeksema and D.G. Gilbers. <a href="pubs/vanOmmenetal(2007)Heeelelangevocalen.pdf" target=>Heeeeele lange vocalen: een onderzoek naar emfatische rekking</a>, TABU, 36-1/2, 39-64'+
+			'<td>Ommen, S. van, J. Hoeksema and D.G. Gilbers. <br><a href="pubs/vanOmmenetal(2007)Heeelelangevocalen.pdf" target=>Heeeeele lange vocalen: een onderzoek naar emfatische rekking</a>, TABU, 36-1/2, 39-64'+
 			'</td>'+
 			'</tr>'+
 			'</table>'+
@@ -278,7 +279,30 @@ jQuery(document).ready(function($){
 		$('#Back').on('click', function(){
 			defaultdiv();
 			});
-	}				
+	}
+	
+// Visworld function
+	function visworld(){
+		pickdiv = 'pubpage'
+		cleardiv();
+			content =
+			'<table>'+
+			'<tr>'+
+			'<td class="year">2017</td>' +
+			'<td>Helo, A., Ommen, S. van, Pannasch, S., Danteny-Dordoigne, L., Rämä, P. <br><a href="pubs/Heloetal(2017)Semanticconsistency.pdf" target=>Influence of semantic consistency and perceptual features on visual attention during scene viewing in toddlers</a>, Infant Behavior and Development, 49, 248-266'+
+			'</td>'+
+			'</tr>'+
+			'</table>'+
+			'<p>'+
+			'<button type="button" class="button" id="Back">Back</button>'+
+			'</p>'
+		addContent()
+		//	Back event
+		$('#Back').on('click', function(){
+			defaultdiv();
+			});
+	}
+	
 // Animations function
 	function animations(){
 		cleardiv();
