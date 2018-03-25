@@ -65,9 +65,9 @@ jQuery(document).ready(function($){
 		cleardiv();
 		content = 
 		'<p>'+
-		'<button type="button" class="button" id="Pictures">Amateur photography</button>'+
-		'<button type="button" class="button" id="Animations">Simple Animations</button>'+
-		'<button type="button" class="button" id="Websites">Website building</button>'+
+		'<button type="button" class="button" id="Pictures">Photos</button>'+
+		'<button type="button" class="button" id="Animations">Animations</button>'+
+		'<button type="button" class="button" id="Websites">Websites</button>'+
 		'<button type="button" class="button" id="Links">Links</button>'+
 		'</p>'
 		addContent();
