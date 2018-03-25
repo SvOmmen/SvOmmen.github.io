@@ -194,7 +194,7 @@ tr:hover {
     background:url("../gifs/prosaq.gif")  no-repeat center center;
 	background-size:100%;
 }
-#Rhythmproc:hover{
+#Prosproc:hover{
     background:url("../gifs/rhythmproc.gif")  no-repeat center center;
 	background-size:100%;
 }
@@ -210,7 +210,14 @@ tr:hover {
     background:url("../gifs/lingdist.gif")  no-repeat center center;
 	background-size:100%;
 }
-
+#Visworld:hover{
+    background:url("../gifs/visworld.gif")  no-repeat center center;
+	background-size:100%;
+}
+#Brain:hover{
+    background:url("../gifs/brain.gif")  no-repeat center center;
+	background-size:100%;
+}
 #portrait{
 	max-height:80%;
 	max-width:80%;
