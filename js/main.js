@@ -81,7 +81,7 @@ jQuery(document).ready(function($){
 		'<button type="button" class="button" id="Lingdist">Linguistic Distance</button>'+
 		'<button type="button" class="button" id="Emphlength">Emphatic Lengthening</button>'+
 		'<button type="button" class="button" id="Visworld">Visual World</button>'+
-		'<button type="button" class="button" id="Brain">Brain</button>'
+		'<button type="button" class="button" id="Brain">Brain</button>'+
 		'</p>'
 		addContent();
 		
