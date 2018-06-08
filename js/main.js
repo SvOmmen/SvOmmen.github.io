@@ -302,6 +302,28 @@ jQuery(document).ready(function($){
 			defaultdiv();
 			});
 	}
+
+// Brain function
+	function brain(){
+		pickdiv = 'pubpage'
+		cleardiv();
+			content =
+			'<table>'+
+			'<tr>'+
+			'<td class="year">2018</td>' +
+			'<td>Boll-Avetisyan, N., Nixon, J., Lentz, T., Liu, L., Ommen, S. van, Coltekin, C., & Rij, J. van. <br><a href="pubs/BollAvetisyanetal(2018)NeuralResponseDevelopment.pdf" target=>Neural response development during distributional learning</a>, Proceedings of Interspeech 2018, Iderabad, India. In press.'+
+			'</td>'+
+			'</tr>'+
+			'</table>'+
+			'<p>'+
+			'<button type="button" class="button" id="Back">Back</button>'+
+			'</p>'
+		addContent()
+		//	Back event
+		$('#Back').on('click', function(){
+			defaultdiv();
+			});
+	}	
 	
 // Animations function
 	function animations(){
