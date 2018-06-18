@@ -65,8 +65,8 @@ jQuery(document).ready(function($){
 		cleardiv();
 		content = 
 		'<p>'+
-		'<button type="button" class="button" id="Pictures">Photos</button>'+
-		'<button type="button" class="button" id="Animations">Animations</button>'+
+		'<button type="button" class="button" id="Pictures">Photography</button>'+
+		'<button type="button" class="button" id="Animations">Animation</button>'+
 		'<button type="button" class="button" id="Websites">Websites</button>'+
 		'<button type="button" class="button" id="Links">Links</button>'+
 		'</p>'
@@ -369,8 +369,6 @@ jQuery(document).ready(function($){
 			'<p>'+
 			'<a href="http://svommen.github.io" target=>Sandrien van Ommen</a><br>'+
 			'<a href="http://www.gaaikeeuwema.nl" target=>Visual artist Gaaike Euwema</a><br>'+
-			'<a href="http://www.hum.uu.nl/medewerkers/s.vanommen/ELiTU.html" target=>Experimental Linguistics Talks Utrecht</a><br>'+
-			'<button type="button" class="button" id="Back">Back</button>'+
 			'</p>'
 		addContent()
 		//	Back event

@@ -83,26 +83,14 @@ b{
 	font-weight: bold;
 }
 h1{
-	font-family: 'alloverc';
-	font-size: 11px;
-  position: absolute;
-  left: 50%;
-  top: 40%;
-  bottom: auto;
-  right: auto;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -o-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-  width: 90%;
-  max-width: 1536px;
-  text-align: center;
-  float:none;
+	font-family: 'titillium';
+	text-shadow: 2px 2px #3e3947;
+	font-size: 8px;
 }
 h2{	
 	font-family: 'titilliuml';  
 	color:white;
+	text-shadow: 1px 1px #3e3947;
 }
 img {
   max-width: 100%;
@@ -224,10 +212,10 @@ tr:hover {
 	margin:.5em;
 }
 .portrait{
-	position: relative;
+	position: absolute;
 	width:20%;
 	top: auto;
-	left: 50%;
+	left: 90%;
   -webkit-transform: translateX(-50%) translateY(0%);
   -moz-transform: translateX(-50%) translateY(0%);
   -ms-transform: translateX(-50%) translateY(0%);
@@ -270,11 +258,29 @@ Modules - reusable parts of our design
 .dimmed {
   position: relative;
 }
+.header{
+background: rgba(249, 249, 249, 0.5);
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  width: 60%;
+  max-width: 1536px;
+  text-align: center;
+  float:none;
+
+}
 .footer{
   position: absolute;
   display: block;
   height: 40%;
-  top: 60%;
+  top: 80%;
   left: 50%;
   right: 50%;
   -webkit-transform: translateX(-50%) translateY(0%);
@@ -290,12 +296,12 @@ Modules - reusable parts of our design
 }
 .footer h2{
   position: relative;
-  top:5%;
-}
+/*  top:5%;
+*/}
 .footer p{
   position: relative;
-  top:15%;
-}
+/*  top:15%;
+*/}
 .overlay {
   content: " ";
   pointer-events: none
@@ -455,8 +461,8 @@ Main components
 .cd-section h1 {
   color: white;
   font-weight: 300;
-  text-transform: uppercase;
-  font-size: 20px;
+/*  text-transform: uppercase;
+*/  font-size: 10px;
   font-size: 1.25rem;
 }
 .cd-section h2 {
