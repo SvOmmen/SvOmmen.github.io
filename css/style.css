@@ -277,7 +277,7 @@ div#centernav{
 	box-shadow:0 8px 16px 0 rgba(255,255,255,0.5), 0 6px 20px 0 rgba(255,255,255,0.5);	
 }
 .refbutton{
-   background: rgba(255,255,255, 0.7);
+   background: rgba(0,0,0, 0.7);
     background-repeat:no-repeat;
     border: none;
     cursor:pointer;
@@ -292,9 +292,10 @@ div#centernav{
 	font-size:14px;
     border-radius: 0.25em;
 	vertical-align: top;
+	color:White;
 }	
 .refbutton:hover{
-    background: rgba(0,0,0, 0.1);
+    background: rgba(255,255,255, 0.1);
 	background-size:cover;
 	background-size:contain;
 	color:White;
