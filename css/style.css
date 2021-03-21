@@ -53,22 +53,20 @@ h2{
 div#center{
     background: rgba(0,0,0, 0.9);
 	position:fixed;
-/*	height:90vh;*/
 	width: 50%;
-/*	margin: 20%;*/
 	left:55%;
 	-moz-transform: translate(-50%, 0%);
 	-o-transform: translate(-50%, 0%);
   	-ms-transform: translate(-50%, 0%);/* IE 9 */
     -webkit-transform:translate(-50%, 0%);/* Chrome, Safari, Opera */
   	transform: translate(-50%, 0%);
-	top: 15%;
-	height:70%;
+	top: 5%;
+	height:80%;
 	color: White;
 }
 div#left{
 	position:fixed;
-	top: 20%;
+	top: 5%;
 	width:20%;
 	left: 5%;
 	height:70%;
@@ -79,8 +77,6 @@ div#nav{
 	position:fixed;
 	top: 90%;
 	left: 50%;
-	/*width: 10%;
-	height: 20%;*/
 	-moz-transform: translate(-50%, 0%);
 	-o-transform: translate(-50%, 0%);
   	-ms-transform: translate(-50%, 0%);/* IE 9 */
@@ -91,8 +87,6 @@ div#centernav{
 	position:fixed;
 	top: 90%;
 	left: 50%;
-	/*width: 10%;
-	height: 20%;*/
 	-moz-transform: translate(-50%, 0%);
 	-o-transform: translate(-50%, 0%);
   	-ms-transform: translate(-50%, 0%);/* IE 9 */
@@ -100,7 +94,7 @@ div#centernav{
   	transform: translate(-50%, 0%);
 }
 .bg{
-  background-image: url("../images/bg2.JPG");
+  background-image: url("../images/bg2.jpg");
   height: 100%;
   background-position: center top;
   background-repeat: no-repeat;
@@ -110,8 +104,6 @@ div#centernav{
 	position:fixed;
 	top: 0%;
 	left: 50%;
-	/*width: 10%;
-	height: 20%;*/
 	-moz-transform: translate(-50%, 0%);
 	-o-transform: translate(-50%, 0%);
   	-ms-transform: translate(-50%, 0%);/* IE 9 */
@@ -126,13 +118,13 @@ div#centernav{
     cursor:pointer;
     overflow: hidden;
     outline: none;
-/*  display: inline-block;*/
+  display: inline-block;
     position:relative;
-	width: 200px;
-	height: 30px;
+	width: 90%;
+	height: 10%;
 	font-family: 'sanserif2';
 	font-size:16px;
-	margin: 10px;
+	margin: 5%;
     border-radius: 0.25em;
 }
 .button:hover{
@@ -140,33 +132,22 @@ div#centernav{
 	background-size:cover;
 	background-size:contain;
 	color:White;
-/*	color: #FF0000;	*/
 	box-shadow:0 8px 16px 0 rgba(255,255,255,0.5), 0 6px 20px 0 rgba(255,255,255,0.5);	
 }
 .titlebutton{
-/*was a cool idea to change the saturation of the background image for the title but it's a bit noisy.
-/*	background:url("../images/bg1.JPG");*/
-	width:15%;
+	width:90%;
 	background-position: center top;
 	background-repeat: no-repeat;
 	background-size: cover;
 	font-family: 'sanserif';
 	font-size: 20px;
 	text-align:center;
-	position:fixed;
+	position:relative;
 	left:5%;
-	top:5%;
+	top:0%;
     border: none;
-/*  cursor:pointer;*/
-/*  overflow: hidden;*/
     outline:none;
-    height:15vh;
-/*  	-moz-transform: translate(-50%, 0%);
-/*	-o-transform: translate(-50%, 0%);
-/*  	-ms-transform: translate(-50%, 0%);/* IE 9 */
-/*    -webkit-transform:translate(-50%, 0%);/* Chrome, Safari, Opera */
-/*  	transform: translate(-50%, 0%);
-/*	filter: saturate(1.5);*/
+    height:20%;
 	box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);	
 	color: Black;
     border-radius: 0.25em;
@@ -180,14 +161,12 @@ div#centernav{
 	font-family: 'sanserif2';
 	font-size: 20px;
 	text-align:center bottom;
-	position:fixed;
+	position:relative;
 	left:50%;
-	top:-15%;
+	top:0%;
     border: none;
-/*  cursor:pointer;*/
-/*  overflow: hidden;*/
     outline:none;
-    height:7.5vh;
+    height:7.5%;
   	-moz-transform: translate(-50%, 0%);
 	-o-transform: translate(-50%, 0%);
   	-ms-transform: translate(-50%, 0%);/* IE 9 */
@@ -196,10 +175,8 @@ div#centernav{
 	filter: saturate(1.5);*/
 	box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);	
 	color:White;
-	border-radius: 0.25em;
-
+	border-radius: 0.25em
 }
-
 .labbutton{
 	background:inherit;
 	box-shadow: inset 0 0 2000px rgba(255, 255, 255, .2);
@@ -207,23 +184,14 @@ div#centernav{
 	font-size: 12px;
 	color:Black;
 	text-align:center;
-	position:fixed;
+	position:relative;
 	left:5%;
-	top:15%;
+	top:-5%;
     border: none;
-/*  cursor:pointer;*/
-/*  overflow: hidden;*/
     outline:none;
-    width:15%;
-    height:5vh;
+    width:90%;
+    height:5%;
 	border-radius: 0.25em;
-
- /* 	-moz-transform: translate(-50%, 0%);
-/*	-o-transform: translate(-50%, 0%);
-/*  	-ms-transform: translate(-50%, 0%);/* IE 9 */
-/*    -webkit-transform:translate(-50%, 0%);/* Chrome, Safari, Opera */
-/*  	transform: translate(-50%, 0%);
-/* Tooltip text */
 }
 .tooltiptext {
     visibility: hidden;
@@ -286,7 +254,7 @@ div#centernav{
     background:url("../gifs/distance.gif")  no-repeat center center;
 	background-size:cover;
  }
- .CV{
+.CV{
     background:url("../gifs/CV.gif")  no-repeat center center;
 	background-size:cover;
 	background-repeat:no-repeat;
@@ -380,32 +348,32 @@ div#centernav{
  }
  #logo1{
  position:fixed;
- top:5%;
- height:10%;
+ top:10%;
+ height:5%;
  left:0%;
  }
  #logo2{
  position:fixed;
- top:5%;
- height:10%;
+ top:10%;
+ height:5%;
  right:0%;
  }
   #logo3{
  position:fixed;
- top:5%;
- height:5%;
+ top:10%;
+ height:3%;
  left:30%;
  }
   #logo4{
  position:fixed;
- top:5%;
- height:5%;
+ top:10%;
+ height:3%;
  left:43%;
  }
   #logo5{
  position:fixed;
- top:5%;
- height:5%;
+ top:10%;
+ height:3%;
  left:60%;
  }
  
