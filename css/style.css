@@ -343,6 +343,10 @@ div#centernav{
     background:url("../images/instagram.jpg")  no-repeat center center;
 	background-size:cover;
  }
+ #twitter{
+    background:url("../images/twitter.png")  no-repeat center center;
+	background-size:cover;
+ }
 
  #terug{
 	width:6em;

@@ -6,13 +6,6 @@ $(document).ready(function(){
 
 	});	
 
-//VARIABLES
-
-	var ipub = 0;
-	dir = './time/'
-	dir2 ='./space/'
-	list = ['brug9.JPG','brug8.JPG','brug7.jpg','brug6.jpg','brug1.jpg', 'brug2.JPG','brug5.JPG', 'brug4.JPG'];
-	list2 = []
 //FUNCTIONS		
 //	clear divs function
 	function clearAllDivs(){
@@ -40,9 +33,9 @@ $(document).ready(function(){
 			'<a href="https://www.upf.edu/web/cbc"><img src="./images/logocbc.PNG" alt="CBC" id="logo3"></a>'+
 			'<a href="https://www.uu.nl/en/research/utrecht-institute-of-linguistics-ots"><img src="./images/logouilots.jpg" alt="UiL OTS" id="logo4"></a>'+
 			'<a href="https://incc-paris.fr/language-and-cognition/"><img src="./images/logoincc.png" alt="INCC" id="logo5"></a>'+
-			'<BR><BR><BR><BR><BR><BR>'+
-			'<p> This project has received funding from the European Union’s Horizon 2020 research and innovation programme under the Marie Sklodowska-Curie grant agreement No 892890</p>'+
-			'<video width="100%" controls><source src="./images/entrainbrain.mp4" type="video/mp4" poster src="./images/entrainbrain.jpg">Your browser does not support the video tag.</video>'
+			'<BR><BR><BR><BR>'+
+			'<center><p>This project has received funding from the European Union’s Horizon 2020 research and innovation programme under the Marie Sklodowska-Curie grant agreement No 892890</p></center>'+
+			'<video width="100%" controls><source src="./images/entrainbrainsubt.mp4" type="video/mp4" poster src="./images/entrainbrain.jpg">Your browser does not support the video tag.</video>'
 			addContent();
 		pickdiv = "left"
 		newclass = "links"
@@ -55,7 +48,7 @@ $(document).ready(function(){
 			addContent();	
 		pickdiv = "centernav"
 		newclass = "links"
-		content = '<div id="media"><button type="button" class="smallbutton" id="linkedin" onclick="location.href=`https://www.linkedin.com/in/sandrien-van-ommen-56021527`"></button><button type="button" class="smallbutton" id="osf" onclick="location.href=`https://osf.io/2p9vb`"></button><button type="button" class="smallbutton" id="researchgate" onclick="location.href=`https://www.researchgate.net/profile/Sandrien_Ommen`"></button><button type="button" class="smallbutton" id="googlecit" onclick="location.href=`https://scholar.google.com/citations?user=eS8HT4wAAAAJ`"></button><button type="button" class="smallbutton" id="github" onclick="location.href=`https://github.com/SvOmmen`"></button><button type="button" class="smallbutton" id="instagram" onclick="location.href=`https://www.instagram.com/sandrienvo`"></button>'+
+		content = '<div id="media"><button type="button" class="smallbutton" id="linkedin" onclick="location.href=`https://www.linkedin.com/in/sandrien-van-ommen-56021527`"></button><button type="button" class="smallbutton" id="osf" onclick="location.href=`https://osf.io/2p9vb`"></button><button type="button" class="smallbutton" id="researchgate" onclick="location.href=`https://www.researchgate.net/profile/Sandrien_Ommen`"></button><button type="button" class="smallbutton" id="googlecit" onclick="location.href=`https://scholar.google.com/citations?user=eS8HT4wAAAAJ`"></button><button type="button" class="smallbutton" id="github" onclick="location.href=`https://github.com/SvOmmen`"></button><button type="button" class="smallbutton" id="instagram" onclick="location.href=`https://www.instagram.com/sandrienvo`"></button><button type="button" class="smallbutton" id="twitter" onclick="location.href=`https://twitter.com/VanSandrien`"></button>'+
 		'<button type = "button" class="button" id="terug">Back</button></div>'
 		addContent();
 //		Goback event embedded
@@ -90,7 +83,18 @@ $(document).ready(function(){
 			pickdiv = 'center'
 			newclass =  "info"
 			content=
-			'<p>Speech has rhythmic properties that widely differ across languages. <span style="color:grey">When we listen to foreign languages, we may perceive them to be more musical, or rather more rap-like than our own. Even if we are unaware of it, the rhythm and melody of language, what we call its prosody, reflects its linguistic structure. On one hand, prosody emphasizes content words and new information with stress and accents, which listeners can attend to. On the other hand, it is aligned to phrase edges, which helps listeners to divide speech into smaller bits to understand its structure. <BR><BR> Without prosody, speech would somehow be \'too fast\' to understand because we would have no cues to process it efficiently. In fact,</span> listeners even use prosody predictively to process speech efficiently. <span style="color:grey"> Because of prosody, listeners know when to expect the next word, the next bit of new information, or the end of the sentence. This way, they prepare their attention or already plan when to seamlessly start their own speaking turn. <BR><BR> So, the listener, or rather their brain, is actively predicting when important speech events will happen, using prosody. But it is still unclear how they do this.</span> One hypothesis is that the rhythm of speech, such as the alternation of stressed and unstressed syllables, helps listeners time their attention. <span style="color:grey"> Rhythm is repetitive, so it is an excellent cue to when something (the rhythmic thing) will happen again. <BR><BR> In fact, rhythm is omnipresent in nature, including in our own brain. </span>Currently, a huge research effort into the relation of these internal (brain) rhythms to external (world) rhythms is taking place  <span style="color:grey"> around the world, because knowledge about the synchronization of rhythms is key to understanding how we perceive and interact with our environment. The investigation of these rhythms has led to an important progress in our understanding of perception: perception is not passive but active. Perception is the continous process of updating our predictions.<BR><BR> </span> In the current project we investigate whether the synchronization of brain waves to speech prosody is responsible for what we know about the language-specific nature of speech perception. Additionally, by comparing listeners of different languages we will gain insight into whether this synchronization of rhythms is driven by our own experience. <span style="color:grey"> Do Spanish-language listeners have the same brain waves when hearing Spanish as Dutch-language listeners would when hearing Spanish? Or does their knowledge and experience change their internal brain waves, and therefore the way they perceive speech, and their ability to predict what will happen? Is this why other languages always sound so fast...?</span></p>'
+			'<button type="title2" class="title2" id="title2">Rhythmic prediction in speech perception: are our brain waves in sync with our native language?<span class="tooltiptext">sandrienvo[at]gmail.com</span></button>'+
+			'<a href="https://neurocenter-unige.ch/research-groups/anne-lise-giraud/"><img src="./images/logounige.png" alt="UNIGE" id="logo1"></a>'+
+			'<a href="https://ec.europa.eu/programmes/horizon2020/en/what-horizon-2020"><img src="./images/MC_EU.jpg" alt="MSC eu" id="logo2"></a>'+
+			'<a href="https://www.upf.edu/web/cbc"><img src="./images/logocbc.PNG" alt="CBC" id="logo3"></a>'+
+			'<a href="https://www.uu.nl/en/research/utrecht-institute-of-linguistics-ots"><img src="./images/logouilots.jpg" alt="UiL OTS" id="logo4"></a>'+
+			'<a href="https://incc-paris.fr/language-and-cognition/"><img src="./images/logoincc.png" alt="INCC" id="logo5"></a>'+
+			'<BR><BR><BR><BR>'+
+			'<center><p>This project has received funding from the European Union’s Horizon 2020 research and innovation programme under the Marie Sklodowska-Curie grant agreement No 892890</p></center>'+
+			'<BR>'+
+			'<p>Speech has rhythmic properties that widely differ across languages. <span style="color:grey">When we listen to foreign languages, we may perceive them to be more musical, or rather more rap-like than our own. Even if we are unaware of it, the rhythm and melody of language, what we call its prosody, reflects its linguistic structure. On one hand, prosody emphasizes content words and new information with stress and accents, which listeners can attend to. On the other hand, it is aligned to phrase edges, which helps listeners to divide speech into smaller bits to understand its structure. <BR><BR> Without prosody, speech would somehow be \'too fast\' to understand because we would have no cues to process it efficiently. In fact,</span> listeners even use prosody predictively to process speech efficiently. <span style="color:grey"> Because of prosody, listeners know when to expect the next word, the next bit of new information, or the end of the sentence. This way, they prepare their attention or already plan when to seamlessly start their own speaking turn. <BR><BR> So, the listener, or rather their brain, is actively predicting when important speech events will happen, using prosody. But it is still unclear how they do this.</span> One hypothesis is that the rhythm of speech, such as the alternation of stressed and unstressed syllables, helps listeners time their attention. <span style="color:grey"> Rhythm is repetitive, so it is an excellent cue to when something (the rhythmic thing) will happen again. <BR><BR> In fact, rhythm is omnipresent in nature, including in our own brain. </span>Currently, a huge research effort into the relation of these internal (brain) rhythms to external (world) rhythms is taking place  <span style="color:grey"> around the world, because knowledge about the synchronization of rhythms is key to understanding how we perceive and interact with our environment. The investigation of these rhythms has led to an important progress in our understanding of perception: perception is not passive but active. Perception is the continous process of updating our predictions.<BR><BR> </span> In the current project we investigate whether the synchronization of brain waves to speech prosody is responsible for what we know about the language-specific nature of speech perception. Additionally, by comparing listeners of different languages we will gain insight into whether this synchronization of rhythms is driven by our own experience. <span style="color:grey"> Do Spanish-language listeners have the same brain waves when hearing Spanish as Dutch-language listeners would when hearing Spanish? Or does their knowledge and experience change their internal brain waves, and therefore the way they perceive speech, and their ability to predict what will happen? Is this why other languages always sound so fast...?</span></p>'+
+			'<center><a onclick="defaultdiv()"><img src="./images/entrainbrain.jpg" width="400" alt="animation" id="animation"></a>'+
+			'<BR><BR>'
 			addContent();
 			}
 // Project
@@ -396,6 +400,6 @@ $(document).ready(function(){
 		pickdiv = 'center'
 		newclass = "info"
 		content = 	
-		'<button class="CV" onclick="location.href=`./documents/CV_27feb2021_noaddress.pdf`"></button>'
+		'<button class="CV" onclick="location.href=`./documents/CV_SvO.pdf`"></button>'
 		addContent();	
 	}  
