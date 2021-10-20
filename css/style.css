@@ -37,17 +37,17 @@ p{
 }
 a{
 	font-family: 'sanserif3';
-	font-size: 14px;
+	font-size: 16px;
 	color:White
 }
 h1{
 	font-family: 'sanserif' 
-	font-size: 14px;
+	font-size: 16px;
 	text-decoration: underline;
 }
 h2{	
 	font-family: 'sanserif' 
-	font-size: 14px;
+	font-size: 16px;
 }
 
 div#center{
@@ -181,7 +181,7 @@ div#centernav{
 	background:inherit;
 	box-shadow: inset 0 0 2000px rgba(255, 255, 255, .2);
 	font-family: 'sanserif';
-	font-size: 12px;
+	font-size: 16px;
 	color:Black;
 	text-align:center;
 	position:relative;
@@ -201,7 +201,7 @@ div#centernav{
     border-color:black;
     border-width: 1px;
     border-style: solid;
-    font-size: 7px;
+    font-size: 16px;
     font-family:'Weirdo';    
  
     /* Position the tooltip text - see examples below! */
@@ -289,7 +289,7 @@ div#centernav{
 	height: 3em;
 	margin: 1em;
 	font-family: 'sanserif3';
-	font-size:14px;
+	font-size:16px;
     border-radius: 0.25em;
 	vertical-align: top;
 	color:White;
@@ -314,7 +314,7 @@ div#centernav{
 	width: 10%;
 	height: 3em;
 	font-family: 'sanserif3';
-	font-size:14px;
+	font-size:16px;
 	vertical-align: top;
 	color:White;
 }
