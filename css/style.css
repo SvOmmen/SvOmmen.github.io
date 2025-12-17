@@ -152,10 +152,10 @@ div#centerright{
 }
 div#lefttext{
 	background: rgba(0,0,0, 0);
-	position:relative;
-	width: 100%;
+	position:fixed;
+	width: 90%;
 	height: fit-content;
-	top:5%;
+	top:2.5%;
     border-radius: 0.25em;
     display: block; 
 	margin: 10 auto;
