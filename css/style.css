@@ -136,6 +136,10 @@ div#centernav{
 
 
 @media only screen and (orientation: portrait) {
+div#center{
+	height:0%;
+	width:0%;
+}
 div#centerleft{
 	position:fixed;
 	width:45%;
@@ -187,7 +191,7 @@ div#rightbuttons{
 }
 div#leftbuttons{
 	position:fixed;
-	top:10%;
+	top:12.5%;
 	width: 45%;
 	right: 5%;
 	text-align: right;
