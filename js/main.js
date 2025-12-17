@@ -46,7 +46,7 @@ document.addEventListener('contextmenu', event => event.preventDefault());
 			content=
 			'<div class="cardright">'+
 			'<div class="card-inner">'+
-			'<div class="card-front"><button type="button" class="button" id="prints"><img src="images/printing.jpg", width=100%></img></button></div>'+
+			'<div class="card-front"><button type="button" class="button" id="prints"><img src="images/printing.JPG", width=100%></img></button></div>'+
 			'<div class="card-back">Monoprinting</div>'+
 			'</div>'+
 			'</div>'
@@ -131,19 +131,19 @@ document.addEventListener('contextmenu', event => event.preventDefault());
 						'<input type="radio" id="item-2" name="items">'+
 						'<input type="radio" id="item-3" name="items" checked>'+
 						'<nav>'+
-						'<label for="item-1"><img src="images/photos/thumb/_57A6067_thumb.JPG" alt="Female Leaf Bug"></label>'+
-						'<label for="item-2"><img src="images/photos/thumb/_57A6080_thumb.JPG" alt="Male Leaf Bug"></label>'+
-						'<label for="item-3"><img src="images/photos/thumb/_57A6120_thumb.JPG" alt="The Egg"></label>'+
+						'<label for="item-1"><img src="images/photos/thumb/_57A6067_thumb.jpg" alt="Female Leaf Bug"></label>'+
+						'<label for="item-2"><img src="images/photos/thumb/_57A6080_thumb.jpg" alt="Male Leaf Bug"></label>'+
+						'<label for="item-3"><img src="images/photos/thumb/_57A6120_thumb.jpg" alt="The Egg"></label>'+
 						'</nav>'+
 						'<section id="grid" class="grid">'+
 						'<div data-title="Female Leaf Bug">'+
-							'<img src="images/photos/_57A6067_web.JPG">'+
+							'<img src="images/photos/_57A6067_web.jpg">'+
 						'</div>'+
 						'<div data-title="Male Leaf Bug">'+
-							'<img src="images/photos/_57A6080_web.JPG">'+
+							'<img src="images/photos/_57A6080_web.jpg">'+
 						'</div>'+
 						'<div data-title="The Egg">'+
-							'<img src="images/photos/_57A6120_web.JPG">'+
+							'<img src="images/photos/_57A6120_web.jpg">'+
 						'</div>'+
 						'</section>'
 			addContent();
@@ -167,27 +167,27 @@ document.addEventListener('contextmenu', event => event.preventDefault());
 						'<input type="radio" id="item-4" name="items">'+
 						'<input type="radio" id="item-5" name="items">'+
 						'<nav>'+
-						'<label for="item-1"><img src="images/photos/thumb/IMG_7007_thumb.JPG" alt="Dragonfly Shadow"></label>'+
-						'<label for="item-2"><img src="images/photos/thumb/IMG_7010_thumb.JPG" alt="Dragonfly Wings"></label>'+
-						'<label for="item-3"><img src="images/photos/thumb/IMG_7031_thumb.JPG" alt="Dragonfly in the Sun"></label>'+
-						'<label for="item-4"><img src="images/photos/thumb/IMG_7041_thumb.JPG" alt="Dragonfly Face"></label>'+
-						'<label for="item-5"><img src="images/photos/thumb/IMG_7128_thumb.JPG" alt="Damselfy"></label>'+
+						'<label for="item-1"><img src="images/photos/thumb/IMG_7007_thumb.jpg" alt="Dragonfly Shadow"></label>'+
+						'<label for="item-2"><img src="images/photos/thumb/IMG_7010_thumb.jpg" alt="Dragonfly Wings"></label>'+
+						'<label for="item-3"><img src="images/photos/thumb/IMG_7031_thumb.jpg" alt="Dragonfly in the Sun"></label>'+
+						'<label for="item-4"><img src="images/photos/thumb/IMG_7041_thumb.jpg" alt="Dragonfly Face"></label>'+
+						'<label for="item-5"><img src="images/photos/thumb/IMG_7128_thumb.jpg" alt="Damselfy"></label>'+
 						'</nav>'+
 						'<section id="grid" class="grid">'+
 						'<div data-title="Dragonfly Shadow">'+
-							'<img src="images/photos/IMG_7007_web.JPG">'+
+							'<img src="images/photos/IMG_7007_web.jpg">'+
 						'</div>'+
 						'<div data-title="Dragonfly Wings">'+
-							'<img src="images/photos/IMG_7010_web.JPG">'+
+							'<img src="images/photos/IMG_7010_web.jpg">'+
 						'</div>'+
 						'<div data-title="Dragonfly in the Sun">'+
-							'<img src="images/photos/IMG_7031_web.JPG">'+
+							'<img src="images/photos/IMG_7031_web.jpg">'+
 						'</div>'+
 						'<div data-title="Dragonfly Face">'+
-							'<img src="images/photos/IMG_7041_web.JPG">'+
+							'<img src="images/photos/IMG_7041_web.jpg">'+
 						'</div>'+
 						'<div data-title="Damselfly">'+
-							'<img src="images/photos/IMG_7128_web.JPG">'+
+							'<img src="images/photos/IMG_7128_web.jpg">'+
 						'</div>'+
 						'</section>'
 			addContent();
@@ -209,19 +209,19 @@ document.addEventListener('contextmenu', event => event.preventDefault());
 						'<input type="radio" id="item-2" name="items">'+
 						'<input type="radio" id="item-3" name="items" checked>'+
 						'<nav>'+
-						'<label for="item-1"><img src="images/photos/thumb/_57A6765_thumb.JPG" alt="Smokey Flowers 1"></label>'+
-						'<label for="item-2"><img src="images/photos/thumb/_57A6771_thumb.JPG" alt="Smokey Flowers 2"></label>'+
-						'<label for="item-3"><img src="images/photos/thumb/_57A6767_thumb.JPG" alt="Smokey Flowers 3"></label>'+
+						'<label for="item-1"><img src="images/photos/thumb/_57A6765_thumb.jpg" alt="Smokey Flowers 1"></label>'+
+						'<label for="item-2"><img src="images/photos/thumb/_57A6771_thumb.jpg" alt="Smokey Flowers 2"></label>'+
+						'<label for="item-3"><img src="images/photos/thumb/_57A6767_thumb.jpg" alt="Smokey Flowers 3"></label>'+
 						'</nav>'+
 						'<section id="grid" class="grid">'+
 						'<div data-title="Smokey Flowers 1">'+
-							'<img src="images/photos/_57A6765_web.JPG">'+
+							'<img src="images/photos/_57A6765_web.jpg">'+
 						'</div>'+
 						'<div data-title="Smokey Flowers 2">'+
-							'<img src="images/photos/_57A6771_web.JPG">'+
+							'<img src="images/photos/_57A6771_web.jpg">'+
 						'</div>'+
 						'<div data-title="Smokey Flowers 3">'+
-							'<img src="images/photos/_57A6767_web.JPG">'+
+							'<img src="images/photos/_57A6767_web.jpg">'+
 						'</div>'+
 						'</section>'
 			addContent();
@@ -247,31 +247,31 @@ document.addEventListener('contextmenu', event => event.preventDefault());
 						'<input type="radio" id="item-5" name="items">'+
 						'<input type="radio" id="item-6" name="items">'+
 						'<nav>'+
-						'<label for="item-1"><img src="images/photos/thumb/IMG_6894_thumb.JPG" alt="Flowy Foliage 1"></label>'+
-						'<label for="item-2"><img src="images/photos/thumb/IMG_6898_thumb.JPG" alt="Flowy Foliage 2"></label>'+
-						'<label for="item-3"><img src="images/photos/thumb/IMG_6901_thumb.JPG" alt="Flowy Foliage 3"></label>'+
-						'<label for="item-4"><img src="images/photos/thumb/IMG_6902_thumb.JPG" alt="Flowy Foliage 4"></label>'+
-						'<label for="item-5"><img src="images/photos/thumb/IMG_6907_thumb.JPG" alt="Flowy Foliage 5"></label>'+
-						'<label for="item-6"><img src="images/photos/thumb/IMG_6909_thumb.JPG" alt="Flowy Foliage 6"></label>'+
+						'<label for="item-1"><img src="images/photos/thumb/IMG_6894_thumb.jpg" alt="Flowy Foliage 1"></label>'+
+						'<label for="item-2"><img src="images/photos/thumb/IMG_6898_thumb.jpg" alt="Flowy Foliage 2"></label>'+
+						'<label for="item-3"><img src="images/photos/thumb/IMG_6901_thumb.jpg" alt="Flowy Foliage 3"></label>'+
+						'<label for="item-4"><img src="images/photos/thumb/IMG_6902_thumb.jpg" alt="Flowy Foliage 4"></label>'+
+						'<label for="item-5"><img src="images/photos/thumb/IMG_6907_thumb.jpg" alt="Flowy Foliage 5"></label>'+
+						'<label for="item-6"><img src="images/photos/thumb/IMG_6909_thumb.jpg" alt="Flowy Foliage 6"></label>'+
 						'</nav>'+
 						'<section id="grid" class="grid">'+
 						'<div data-title="Flowy Foliage 1">'+
-							'<img src="images/photos/IMG_6894_web.JPG">'+
+							'<img src="images/photos/IMG_6894_web.jpg">'+
 						'</div>'+
 						'<div data-title="Flowy Foliage 2">'+
-							'<img src="images/photos/IMG_6898_web.JPG">'+
+							'<img src="images/photos/IMG_6898_web.jpg">'+
 						'</div>'+
 						'<div data-title="Flowy Foliage 3">'+
-							'<img src="images/photos/IMG_6901_web.JPG">'+
+							'<img src="images/photos/IMG_6901_web.jpg">'+
 						'</div>'+
 						'<div data-title="Flowy Foliage 4">'+
-							'<img src="images/photos/IMG_6902_web.JPG">'+
+							'<img src="images/photos/IMG_6902_web.jpg">'+
 						'</div>'+
 						'<div data-title="Flowy Foliage 5">'+
-							'<img src="images/photos/IMG_6907_web.JPG">'+
+							'<img src="images/photos/IMG_6907_web.jpg">'+
 						'</div>'+
 						'<div data-title="Flowy Foliage 6">'+
-							'<img src="images/photos/IMG_6909_web.JPG">'+
+							'<img src="images/photos/IMG_6909_web.jpg">'+
 						'</div>'+					
 						'</section>'
 			addContent();
@@ -296,31 +296,31 @@ document.addEventListener('contextmenu', event => event.preventDefault());
 						'<input type="radio" id="item-5" name="items">'+
 						'<input type="radio" id="item-6" name="items">'+
 						'<nav>'+
-						'<label for="item-1"><img src="images/photos/thumb/_57A6653_thumb.JPG" alt="Pink Petals 1"></label>'+
-						'<label for="item-2"><img src="images/photos/thumb/_57A6655_thumb.JPG" alt="Pink Petals 2"></label>'+
-						'<label for="item-3"><img src="images/photos/thumb/_57A6659_thumb.JPG" alt="White Petals 1"></label>'+
-						'<label for="item-4"><img src="images/photos/thumb/_57A6669_thumb.JPG" alt="White Petals 2"></label>'+
-						'<label for="item-5"><img src="images/photos/thumb/_57A6677_thumb.JPG" alt="White Petals 3"></label>'+
-						'<label for="item-6"><img src="images/photos/thumb/_57A6684_thumb.JPG" alt="White Petals 4"></label>'+
+						'<label for="item-1"><img src="images/photos/thumb/_57A6653_thumb.jpg" alt="Pink Petals 1"></label>'+
+						'<label for="item-2"><img src="images/photos/thumb/_57A6655_thumb.jpg" alt="Pink Petals 2"></label>'+
+						'<label for="item-3"><img src="images/photos/thumb/_57A6659_thumb.jpg" alt="White Petals 1"></label>'+
+						'<label for="item-4"><img src="images/photos/thumb/_57A6669_thumb.jpg" alt="White Petals 2"></label>'+
+						'<label for="item-5"><img src="images/photos/thumb/_57A6677_thumb.jpg" alt="White Petals 3"></label>'+
+						'<label for="item-6"><img src="images/photos/thumb/_57A6684_thumb.jpg" alt="White Petals 4"></label>'+
 						'</nav>'+
 						'<section id="grid" class="grid">'+
 						'<div data-title="Pink Petals 1">'+
-							'<img src="images/photos/_57A6653_web.JPG">'+
+							'<img src="images/photos/_57A6653_web.jpg">'+
 						'</div>'+
 						'<div data-title="Pink Petals 2">'+
-							'<img src="images/photos/_57A6655_web.JPG">'+
+							'<img src="images/photos/_57A6655_web.jpg">'+
 						'</div>'+
 						'<div data-title="White Petals 1">'+
-							'<img src="images/photos/_57A6659_web.JPG">'+
+							'<img src="images/photos/_57A6659_web.jpg">'+
 						'</div>'+
 						'<div data-title="White Petals 2">'+
-							'<img src="images/photos/_57A6669_web.JPG">'+
+							'<img src="images/photos/_57A6669_web.jpg">'+
 						'</div>'+
 						'<div data-title="White Petals 3">'+
-							'<img src="images/photos/_57A6677_web.JPG">'+
+							'<img src="images/photos/_57A6677_web.jpg">'+
 						'</div>'+
 						'<div data-title="White Petals 4">'+
-							'<img src="images/photos/_57A6684_web.JPG">'+
+							'<img src="images/photos/_57A6684_web.jpg">'+
 						'</div>'+					
 						'</section>'
 			addContent();
@@ -342,19 +342,19 @@ document.addEventListener('contextmenu', event => event.preventDefault());
 						'<input type="radio" id="item-2" name="items">'+
 						'<input type="radio" id="item-3" name="items">'+
 						'<nav>'+
-						'<label for="item-1"><img src="images/photos/thumb/_57A6820_thumb.JPG" alt="Daisies 1"></label>'+
-						'<label for="item-2"><img src="images/photos/thumb/_57A6828_thumb.JPG" alt="Daisies 2"></label>'+
-						'<label for="item-3"><img src="images/photos/thumb/_57A6830_thumb.JPG" alt="Daisies 3"></label>'+
+						'<label for="item-1"><img src="images/photos/thumb/_57A6820_thumb.jpg" alt="Daisies 1"></label>'+
+						'<label for="item-2"><img src="images/photos/thumb/_57A6828_thumb.jpg" alt="Daisies 2"></label>'+
+						'<label for="item-3"><img src="images/photos/thumb/_57A6830_thumb.jpg" alt="Daisies 3"></label>'+
 						'</nav>'+
 						'<section id="grid" class="grid">'+
 						'<div data-title="Daisies 1">'+
-							'<img src="images/photos/_57A6820_web.JPG">'+
+							'<img src="images/photos/_57A6820_web.jpg">'+
 						'</div>'+
 						'<div data-title="Daisies 2">'+
-							'<img src="images/photos/_57A6828_web.JPG">'+
+							'<img src="images/photos/_57A6828_web.jpg">'+
 						'</div>'+
 						'<div data-title="Daisies 3">'+
-							'<img src="images/photos/_57A6830_web.JPG">'+
+							'<img src="images/photos/_57A6830_web.jpg">'+
 						'</div>'+
 						'</section>'
 			addContent();
@@ -377,23 +377,23 @@ document.addEventListener('contextmenu', event => event.preventDefault());
 						'<input type="radio" id="item-3" name="items">'+
 						'<input type="radio" id="item-4" name="items">'+
 						'<nav>'+
-						'<label for="item-1"><img src="images/prints/thumb/IMG_7277_thumb.JPG" alt="Mantis"></label>'+
-						'<label for="item-2"><img src="images/prints/thumb/IMG_7275_thumb.JPG" alt="Calathea Refracted"></label>'+
-						'<label for="item-3"><img src="images/prints/thumb/IMG_7274_thumb.JPG" alt="Drinking Slug"></label>'+
-						'<label for="item-4"><img src="images/prints/thumb/IMG_7268_thumb.JPG" alt="Terrarium Spray"></label>'+
+						'<label for="item-1"><img src="images/prints/thumb/IMG_7277_thumb.jpg" alt="Mantis"></label>'+
+						'<label for="item-2"><img src="images/prints/thumb/IMG_7275_thumb.jpg" alt="Calathea Refracted"></label>'+
+						'<label for="item-3"><img src="images/prints/thumb/IMG_7274_thumb.jpg" alt="Drinking Slug"></label>'+
+						'<label for="item-4"><img src="images/prints/thumb/IMG_7268_thumb.jpg" alt="Terrarium Spray"></label>'+
 						'</nav>'+
 						'<section id="grid" class="grid">'+
 						'<div data-title="Mantis">'+
-							'<img src="images/prints/IMG_7277_web.JPG">'+
+							'<img src="images/prints/IMG_7277_web.jpg">'+
 						'</div>'+
 						'<div data-title="Calathea Refracted">'+
-							'<img src="images/prints/IMG_7275_web.JPG">'+
+							'<img src="images/prints/IMG_7275_web.jpg">'+
 						'</div>'+
 						'<div data-title="Drinking Slug">'+
-							'<img src="images/prints/IMG_7274_web.JPG">'+
+							'<img src="images/prints/IMG_7274_web.jpg">'+
 						'</div>'+
 						'<div data-title="Terrarium Spray">'+
-							'<img src="images/prints/IMG_7268_web.JPG">'+
+							'<img src="images/prints/IMG_7268_web.jpg">'+
 						'</div>'+
 						'</section>'
 			addContent();
@@ -413,11 +413,11 @@ document.addEventListener('contextmenu', event => event.preventDefault());
 		pickdiv = 'center'
 			content = 	'<input type="radio" id="item-1" name="items" checked>'+
 						'<nav>'+
-						'<label for="item-1"><img src="images/prints/thumb/IMG_7297_thumb.JPG" alt="Bed Room"></label>'+
+						'<label for="item-1"><img src="images/prints/thumb/IMG_7297_thumb.jpg" alt="Bed Room"></label>'+
 						'</nav>'+
 						'<section id="grid" class="grid">'+
 						'<div data-title="Bedroom">'+
-							'<img src="images/prints/IMG_7297_web.JPG">'+
+							'<img src="images/prints/IMG_7297_web.jpg">'+
 						'</div>'+
 						'</section>'
 			addContent();
@@ -440,23 +440,23 @@ document.addEventListener('contextmenu', event => event.preventDefault());
 						'<input type="radio" id="item-3" name="items" checked>'+
 						'<input type="radio" id="item-4" name="items">'+
 						'<nav>'+
-						'<label for="item-1"><img src="images/prints/thumb/IMG_7288_thumb.JPG" alt="Workers"></label>'+
-						'<label for="item-2"><img src="images/prints/thumb/IMG_7286_thumb.JPG" alt="Lovers"></label>'+
-						'<label for="item-3"><img src="images/prints/thumb/IMG_7294_thumb.JPG" alt="Plants 1"></label>'+
-						'<label for="item-4"><img src="images/prints/thumb/IMG_7292_thumb.JPG" alt="Plants 2"></label>'+
+						'<label for="item-1"><img src="images/prints/thumb/IMG_7288_thumb.jpg" alt="Workers"></label>'+
+						'<label for="item-2"><img src="images/prints/thumb/IMG_7286_thumb.jpg" alt="Lovers"></label>'+
+						'<label for="item-3"><img src="images/prints/thumb/IMG_7294_thumb.jpg" alt="Plants 1"></label>'+
+						'<label for="item-4"><img src="images/prints/thumb/IMG_7292_thumb.jpg" alt="Plants 2"></label>'+
 						'</nav>'+
 						'<section id="grid" class="grid">'+
 						'<div data-title="Workers">'+
-							'<img src="images/prints/IMG_7288_web.JPG">'+
+							'<img src="images/prints/IMG_7288_web.jpg">'+
 						'</div>'+
 						'<div data-title="Lovers">'+
-							'<img src="images/prints/IMG_7286_web.JPG">'+
+							'<img src="images/prints/IMG_7286_web.jpg">'+
 						'</div>'+
 						'<div data-title="Plants 1">'+
-							'<img src="images/prints/IMG_7294_web.JPG">'+
+							'<img src="images/prints/IMG_7294_web.jpg">'+
 						'</div>'+
 						'<div data-title="Plants 2">'+
-							'<img src="images/prints/IMG_7292_web.JPG">'+
+							'<img src="images/prints/IMG_7292_web.jpg">'+
 						'</div>'+
 						'</section>'
 			addContent();
@@ -477,15 +477,15 @@ document.addEventListener('contextmenu', event => event.preventDefault());
 			content = 	'<input type="radio" id="item-1" name="items" checked>'+
 						'<input type="radio" id="item-2" name="items">'+
 						'<nav>'+
-						'<label for="item-1"><img src="images/prints/thumb/IMG_7284_thumb.JPG" alt="Stairs"></label>'+
-						'<label for="item-2"><img src="images/prints/thumb/IMG_7282_thumb.JPG" alt="Bug in Magazine"></label>'+
+						'<label for="item-1"><img src="images/prints/thumb/IMG_7284_thumb.jpg" alt="Stairs"></label>'+
+						'<label for="item-2"><img src="images/prints/thumb/IMG_7282_thumb.jpg" alt="Bug in Magazine"></label>'+
 						'</nav>'+
 						'<section id="grid" class="grid">'+
 						'<div data-title="Stairs">'+
-							'<img src="images/prints/IMG_7284_web.JPG">'+
+							'<img src="images/prints/IMG_7284_web.jpg">'+
 						'</div>'+
 						'<div data-title="Bug in Magazine">'+
-							'<img src="images/prints/IMG_7282_web.JPG">'+
+							'<img src="images/prints/IMG_7282_web.jpg">'+
 						'</div>'+
 						'</section>'
 			addContent();
