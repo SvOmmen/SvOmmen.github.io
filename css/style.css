@@ -50,10 +50,7 @@ h2{
 	font-family: 'sanserif'; 
 	font-size:30px;
 }
-div#center{
-	width:100%;
-	height:100%;
-}
+
 @media only screen and (orientation: landscape) {
 div#centerleft{
 	position:fixed;
@@ -643,10 +640,6 @@ li {
   border-radius: 0.25rem;
   width: calc(100% - 2rem);
   font-size:20px;
-}
-
-li::before {
-  content: url(/images/email.png);
 }
 
 li:nth-child(even) {
