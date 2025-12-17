@@ -191,7 +191,7 @@ div#rightbuttons{
 }
 div#leftbuttons{
 	position:fixed;
-	top:12.5%;
+	top:11%;
 	width: 45%;
 	right: 5%;
 	text-align: right;
@@ -201,16 +201,16 @@ div#left{
 	top: 0%;
 	width:90%;
 	left: 5%;
-	height:40%;
+	height:5%;
 	overflow-x: hidden;
 	text-align: center;
 	}
 div#right{
 	position:relative;
-	top: 45%;
+	top: 75%;
 	width:90%;
 	left: 5%;
-	height:40%;
+	height:5%;
 	overflow-x: hidden;
 	text-align: center;
 	}
