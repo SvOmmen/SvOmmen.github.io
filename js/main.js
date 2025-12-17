@@ -131,19 +131,19 @@ document.addEventListener('contextmenu', event => event.preventDefault());
 						'<input type="radio" id="item-2" name="items">'+
 						'<input type="radio" id="item-3" name="items" checked>'+
 						'<nav>'+
-						'<label for="item-1"><img src="images/photos/thumb/_57A6067_thumb.jpg" alt="Female Leaf Bug"></label>'+
-						'<label for="item-2"><img src="images/photos/thumb/_57A6080_thumb.jpg" alt="Male Leaf Bug"></label>'+
-						'<label for="item-3"><img src="images/photos/thumb/_57A6120_thumb.jpg" alt="The Egg"></label>'+
+						'<label for="item-1"><img src="images/photos/thumb/IMG_57A6067_thumb.jpg" alt="Female Leaf Bug"></label>'+
+						'<label for="item-2"><img src="images/photos/thumb/IMG_57A6080_thumb.jpg" alt="Male Leaf Bug"></label>'+
+						'<label for="item-3"><img src="images/photos/thumb/IMG_57A6120_thumb.jpg" alt="The Egg"></label>'+
 						'</nav>'+
 						'<section id="grid" class="grid">'+
 						'<div data-title="Female Leaf Bug">'+
-							'<img src="images/photos/_57A6067_web.jpg">'+
+							'<img src="images/photos/IMG_57A6067_web.jpg">'+
 						'</div>'+
 						'<div data-title="Male Leaf Bug">'+
-							'<img src="images/photos/_57A6080_web.jpg">'+
+							'<img src="images/photos/IMG_57A6080_web.jpg">'+
 						'</div>'+
 						'<div data-title="The Egg">'+
-							'<img src="images/photos/_57A6120_web.jpg">'+
+							'<img src="images/photos/IMG_57A6120_web.jpg">'+
 						'</div>'+
 						'</section>'
 			addContent();
@@ -209,19 +209,19 @@ document.addEventListener('contextmenu', event => event.preventDefault());
 						'<input type="radio" id="item-2" name="items">'+
 						'<input type="radio" id="item-3" name="items" checked>'+
 						'<nav>'+
-						'<label for="item-1"><img src="images/photos/thumb/_57A6765_thumb.jpg" alt="Smokey Flowers 1"></label>'+
-						'<label for="item-2"><img src="images/photos/thumb/_57A6771_thumb.jpg" alt="Smokey Flowers 2"></label>'+
-						'<label for="item-3"><img src="images/photos/thumb/_57A6767_thumb.jpg" alt="Smokey Flowers 3"></label>'+
+						'<label for="item-1"><img src="images/photos/thumb/IMG_57A6765_thumb.jpg" alt="Smokey Flowers 1"></label>'+
+						'<label for="item-2"><img src="images/photos/thumb/IMG_57A6771_thumb.jpg" alt="Smokey Flowers 2"></label>'+
+						'<label for="item-3"><img src="images/photos/thumb/IMG_57A6767_thumb.jpg" alt="Smokey Flowers 3"></label>'+
 						'</nav>'+
 						'<section id="grid" class="grid">'+
 						'<div data-title="Smokey Flowers 1">'+
-							'<img src="images/photos/_57A6765_web.jpg">'+
+							'<img src="images/photos/IMG_57A6765_web.jpg">'+
 						'</div>'+
 						'<div data-title="Smokey Flowers 2">'+
-							'<img src="images/photos/_57A6771_web.jpg">'+
+							'<img src="images/photos/IMG_57A6771_web.jpg">'+
 						'</div>'+
 						'<div data-title="Smokey Flowers 3">'+
-							'<img src="images/photos/_57A6767_web.jpg">'+
+							'<img src="images/photos/IMG_57A6767_web.jpg">'+
 						'</div>'+
 						'</section>'
 			addContent();
@@ -296,31 +296,31 @@ document.addEventListener('contextmenu', event => event.preventDefault());
 						'<input type="radio" id="item-5" name="items">'+
 						'<input type="radio" id="item-6" name="items">'+
 						'<nav>'+
-						'<label for="item-1"><img src="images/photos/thumb/_57A6653_thumb.jpg" alt="Pink Petals 1"></label>'+
-						'<label for="item-2"><img src="images/photos/thumb/_57A6655_thumb.jpg" alt="Pink Petals 2"></label>'+
-						'<label for="item-3"><img src="images/photos/thumb/_57A6659_thumb.jpg" alt="White Petals 1"></label>'+
-						'<label for="item-4"><img src="images/photos/thumb/_57A6669_thumb.jpg" alt="White Petals 2"></label>'+
-						'<label for="item-5"><img src="images/photos/thumb/_57A6677_thumb.jpg" alt="White Petals 3"></label>'+
-						'<label for="item-6"><img src="images/photos/thumb/_57A6684_thumb.jpg" alt="White Petals 4"></label>'+
+						'<label for="item-1"><img src="images/photos/thumb/IMG_57A6653_thumb.jpg" alt="Pink Petals 1"></label>'+
+						'<label for="item-2"><img src="images/photos/thumb/IMG_57A6655_thumb.jpg" alt="Pink Petals 2"></label>'+
+						'<label for="item-3"><img src="images/photos/thumb/IMG_57A6659_thumb.jpg" alt="White Petals 1"></label>'+
+						'<label for="item-4"><img src="images/photos/thumb/IMG_57A6669_thumb.jpg" alt="White Petals 2"></label>'+
+						'<label for="item-5"><img src="images/photos/thumb/IMG_57A6677_thumb.jpg" alt="White Petals 3"></label>'+
+						'<label for="item-6"><img src="images/photos/thumb/IMG_57A6684_thumb.jpg" alt="White Petals 4"></label>'+
 						'</nav>'+
 						'<section id="grid" class="grid">'+
 						'<div data-title="Pink Petals 1">'+
-							'<img src="images/photos/_57A6653_web.jpg">'+
+							'<img src="images/photos/IMG_57A6653_web.jpg">'+
 						'</div>'+
 						'<div data-title="Pink Petals 2">'+
-							'<img src="images/photos/_57A6655_web.jpg">'+
+							'<img src="images/photos/IMG_57A6655_web.jpg">'+
 						'</div>'+
 						'<div data-title="White Petals 1">'+
-							'<img src="images/photos/_57A6659_web.jpg">'+
+							'<img src="images/photos/IMG_57A6659_web.jpg">'+
 						'</div>'+
 						'<div data-title="White Petals 2">'+
-							'<img src="images/photos/_57A6669_web.jpg">'+
+							'<img src="images/photos/IMG_57A6669_web.jpg">'+
 						'</div>'+
 						'<div data-title="White Petals 3">'+
-							'<img src="images/photos/_57A6677_web.jpg">'+
+							'<img src="images/photos/IMG_57A6677_web.jpg">'+
 						'</div>'+
 						'<div data-title="White Petals 4">'+
-							'<img src="images/photos/_57A6684_web.jpg">'+
+							'<img src="images/photos/IMG_57A6684_web.jpg">'+
 						'</div>'+					
 						'</section>'
 			addContent();
@@ -342,19 +342,19 @@ document.addEventListener('contextmenu', event => event.preventDefault());
 						'<input type="radio" id="item-2" name="items">'+
 						'<input type="radio" id="item-3" name="items">'+
 						'<nav>'+
-						'<label for="item-1"><img src="images/photos/thumb/_57A6820_thumb.jpg" alt="Daisies 1"></label>'+
-						'<label for="item-2"><img src="images/photos/thumb/_57A6828_thumb.jpg" alt="Daisies 2"></label>'+
-						'<label for="item-3"><img src="images/photos/thumb/_57A6830_thumb.jpg" alt="Daisies 3"></label>'+
+						'<label for="item-1"><img src="images/photos/thumb/IMG_57A6820_thumb.jpg" alt="Daisies 1"></label>'+
+						'<label for="item-2"><img src="images/photos/thumb/IMG_57A6828_thumb.jpg" alt="Daisies 2"></label>'+
+						'<label for="item-3"><img src="images/photos/thumb/IMG_57A6830_thumb.jpg" alt="Daisies 3"></label>'+
 						'</nav>'+
 						'<section id="grid" class="grid">'+
 						'<div data-title="Daisies 1">'+
-							'<img src="images/photos/_57A6820_web.jpg">'+
+							'<img src="images/photos/IMG_57A6820_web.jpg">'+
 						'</div>'+
 						'<div data-title="Daisies 2">'+
-							'<img src="images/photos/_57A6828_web.jpg">'+
+							'<img src="images/photos/IMG_57A6828_web.jpg">'+
 						'</div>'+
 						'<div data-title="Daisies 3">'+
-							'<img src="images/photos/_57A6830_web.jpg">'+
+							'<img src="images/photos/IMG_57A6830_web.jpg">'+
 						'</div>'+
 						'</section>'
 			addContent();
